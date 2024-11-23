@@ -1,0 +1,90 @@
+Practical No.1
+AIM: Installation and Configuration of virtual machine
+
+A) Installation of virtual machine software
+
+Step 1: 
+- Download the VMWARE WORKSTATION 11.0 software from the official Website or Google 
+- Save it on the local disk of your machine.
+
+Step 2:
+- Double click on Downloaded exe file. It will show you Next and cancel button. 
+- Select Next button. 
+- In next window select the first radio button to accept terms and conditions then click on Next button.
+
+Step 3:
+- New window "Setup Type" will appear. Here we have to select Typical Installation (default) as shown below. 
+
+Step 4
+- Next window "Software Update" ask for automatic update selection. We can skip it. So we have uncheck the checkbox and click on next button.
+- Next window "User experience Improvement Program" will appear. Here also we can uncheck Help Check box and click on next button as shown below
+
+Step 5: 
+- Next window "Shortcut" will appear. Here you have to keep the default values as it is and then click on next button as shown below.
+- Next window "Ready to perform the Requested Operations" will appear. Here click on continue button as shown below.
+
+Step 6:
+- Wait for some moment till the window indicates finishing installation.
+- Next window will ask for entering License Key. If you have license Key then enter it or Click on Skip button as shown below
+
+Step 7:
+- Next window "Setup Wizard Complete" indicates installation is finished so click on Finish button.
+- To start using the VMWare workstation. From start menu select "VMWare workstation" or from desktop, double click on "VMWare workstation" icon. 
+
+Step 8:
+- Your windows might ask your permission to continue. Accept all requests and then your "VMWare workstation" is ready to use.
+
+
+B) Installation of Windows OS
+
+
+For this we need the ISO file of Windows 8.1.
+
+Step 1:
+- Open VMWARE-> File -> New Virtual Machine
+- In Welcome wizard Select the installation type as Typical.
+- In next window give the path of Windows 8.1 OS ISO file for installation. Then Click on Next.
+
+Step 2:
+- In next window will ask the information about windows License Key. If you don't have it then keep it blank, fill the other information about user Full name and Password and then click on Next button as shown below(optional).
+- As we have not provided the License Key, a message box will prompt indicating that in future we have to provide Windows License key. Here Click on Yes button.
+- The Next window will ask for Name of virtual machine, we can change it or we can keep it as default and then click on Next button as shown below.
+- Next window will prompt for disk space we can modify it or keep it unchanged and the click on Next button as shown below.
+
+Step 3:
+- Next window informs us that virtual machine creation is done after clicking the Finish button.
+- Then wait for moment as VMWare creates the Disk space for installation.
+- Then it starts with windows initial installation screen.
+- In next window it shows the progress of installation
+
+Step 4
+- We have to wait until the VMware finishes the installation of windows.
+- After finishing the installation on next screen, enter password if we have created otherwise click on login or it will directly login.
+- After that our Windows Operating system on Virtual Machine is ready to use.
+
+
+C) Installation of Linux OS
+
+To install Red Hat operating system on virtual machine software, we must have either installation disk or ISO installation file.
+
+Step 1:
+Open VMWARE-> File => New Virtual Machine In Welcome wizard Select the installation type as Typical.
+- In next window give the path of RedHat Linux OS ISO file for installation. Then Click on Next.
+
+Step 2:
+- In next window "Easy Install Information it asks some information about Full Name, username and password. Enter this information and click on Next button.
+
+- In Next window "Name the Virtual Machine", it asks for the name of your choice, you can change it or keep the default name as it is as shown below.
+
+Next window ask about disk capacity. Here we can select default, also we can modify the disk space and then click on next
+
+Step 3:
+- Next window "Ready to create Virtual Machine" Inform us about finishing the creation Job after clicking the Finish.
+- Then again we have to go back to VMWare Workstation. Where we can find our newly created Virtual Machine Name and  Click the option "Power on this Virtual Machine".
+- The Installation of RedHat Linux will begin inside the VMWare Workstation
+
+Step 4:
+- Next Window will show the progress of RedHat Linux Installation process.
+- After Completion of Installation, next window will ask Selection of Username and also we have to provide appropriate password which we have already set in Step 2.
+
+Step 5: Now we all set to use and explore the RedHat Linux Operating system.

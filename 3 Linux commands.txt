@@ -1,0 +1,198 @@
+Practical no.3
+
+AIM : Linux commands
+
+A) pwd, cd, absolute and relative paths, Is, mkdir, rmdir
+
+1. pwd: 
+This command display current working directory!
+
+[Abhinav@localhost ~]$ pwd
+/home/Abhinav
+
+2 cd: 
+This command is used to change the directory for working.
+
+Examples
+Move to the etc folder
+[Abhinav@localhost etc]$ cd /etc 
+[Abhinav@localhost etc]$ pwd
+/etc
+
+3.Is: 
+This command is used to list the details about the files.
+
+[Abhinav@localhost ~]$ Is
+example file1.txt file2.txt file3.txt
+
+4. mkdir: 
+To create a directory, 'mkdir' command is used.
+
+[Abhinav@localhost ~]$ mkdir Demo
+[Abhinav@localhost ~]$ ls
+
+Desktop Documents Downloads Music Pictures Public Demo Templates Videos
+
+
+5. rmdir:
+Remove directory, this command will only work if the folders are empty.
+
+Syntax
+[Abhinav@localhost ~]$ rmdir Demo
+[Abhinav@localhost ~]$ Is
+
+Desktop Documents Downloads Music Pictures Public Templates Videos
+
+
+B) file, touch, rm, cp. mv, rename, cat, tac.
+
+1. File
+The file utility determines the file type
+[Abhinav@localhost ~]$ file demo.txt
+Text file
+
+2. touch: 
+To create an empty file is with touch.
+[Abhinav@localhost ~]$ touch test1
+[Abhinav@localhost ~]$ Is
+Desktop Downloads Pictures Templates test1
+Documents Music Public Videos
+
+
+3. Rm
+The rm command is used to rmove the file permanently from the machine.
+
+[Abhinav@localhost ~]$ ls
+Desktop Downloads Pictures Templates Documents Music Public test1 Videos
+
+[Abhinav@localhost ~]$ rm test1
+[Abhinav@localhost ~]$ Is
+Desktop Downloads Pictures Templates Videos
+Documents Music Public
+
+
+4. cp: 
+The cp is a Linux shell command to copy files and directories.
+
+Copy single file main.c to destination directory demo: 
+[Abhinav@localhost ~]$ cp main.c demo
+
+5. mv: 
+
+The my command is used to move files and directories.
+Syntax:
+[Abhinav@localhost ~]$ mv demo desktop 
+
+
+6. rename: 
+The rename command will rename the specified files by replacing the first occurrence of from in their name by to.
+
+Example
+[Abhinav@localhost ~]$ rename abc.txt demo.txt
+
+7. cat: 
+The cat command is used to display the content of text files and to combine several files to one file. The cat command does not accept directories
+
+To View text file data:
+[Abhinav@localhost ~]$ cat list1.txt
+milk
+bread
+apples
+
+[Abhinav@localhost ~]$ cat list2.txt
+House 
+car
+
+[tushar@localhost ~]$ cat list1.txt list2.txt
+
+milk
+bread
+apples
+house
+car
+
+8. tac: 
+This command just work opposite of cat command. It displays the output of cat in reverse manner.
+
+[Abhinav@localhost-~]$ cat count
+One
+Two
+
+[Abhinav@localhost-~]$ tac count
+Two
+One
+
+
+C) ps, top, kill, pkill, find
+
+1. ps: 
+This command is used to report the process status. ps is the short name for Process Status.
+
+Example:
+Typing ps alone would list the current running processes:
+[Abhinav@localhost ~]$ ps
+
+PID TTY
+TIME CMD
+2671 pts/2 00:00:00 bash
+3021 pts/2 00:00:00 ps
+
+2. top: 
+The top command in linux is used to find CPU usage. It provides dynamic real- time view of a running system.
+
+Example 
+[Abhinav@localhost ~]$ top -c
+
+3. kill: 
+This command is used to kill the background process.
+
+Example 
+[Abhinav@localhost ~]$ kill 1428
+
+The kill command kills or terminates the background process with process id 1428.
+
+4. pkill: 
+The pkill command is used to terminate or stop a running process immediately.
+
+Example 
+[Abhinav@localhost ~]$ pkill chrome
+
+
+5. find: 
+The find command finds one or more files assuming that you know their approximate filenames.
+
+Example:
+For searching any file named 'cal.txt' in the current directory and any subdirectory in system.
+
+[Abhinav@localhost ~]$ find -name 'cal.txt
+
+
+D) date, cal, uptime, w, whoami
+
+1. date: 
+The date command prints the date and time.
+
+Example 
+[Abhinav@localhost ~]$ date
+
+Tue nov 11 21:52:45 PDT 2024
+
+2. cal:
+ The cal command is used to display the calendar
+
+Example 
+[Abhinav@localhost ~]$ cal
+
+3. uptime: 
+The uptime command tells us how long the system has been running.
+
+Example:
+[Abhinav@localhost ~]$ uptime
+
+22:05:34 up 2:34, 2 users, load average: 0.00, 0.00, 0.00
+
+4. whoami: The whoami command is used to print current user's login name along with effective userid.
+
+Synatx:
+[Abhinav@localhost ~]$ whoami
+Abhinav 

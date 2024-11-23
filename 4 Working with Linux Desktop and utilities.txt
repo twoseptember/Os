@@ -1,0 +1,81 @@
+Practical No. 4
+
+AIM : Working with Linux Desktop and utilities
+
+A. The vi editor: 
+Click on Applications -> System Tools -> Terminal...... Then Type vi with file name.
+
+Interacting with vi Editor
+
+1. Make a new file called "Demo" by opening a console and typing this line after the $prompt and press Enter: 
+[Abhinav@localhost ~]$ vi Demo
+
+2. We will get an empty console screen since Vi will start with the empty new file. Remember, Vi always starts Command mode, so press the I key to enter the Insert mode.
+
+3. Next, type this line: "Welcome to vi Editor Practical."
+
+4. Press the Esc key to return to the Command mode.
+
+5. Save the file by holding down the Shift key and pressing the Z key twice: ZZ
+
+
+
+B. Slideshow images using inbuilt image viewer utilities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C. Using the browsers
+
+- A web browser is a type of software that allows us to find and view websites on the Internet. 
+- There are many different web browsers, but some of the most common ones include Google Chrome, Internet Explorer, Safari, and Mozilla Firefox.
+- As more options are available so we will see the common and essential functionalities of all browsers in this practical.
+- In this practical we will cover navigating to different websites, using tabbed browsing, creating bookmarks, and more.
+
+Downloading files
+- Links don't always go to another website. In some cases, they point to a file that can be downloaded, or saved, to our computer.
+- If we click a link to a file, it may download automatically, but sometimes it just opens within our browser instead of downloading. 
+- To prevent it from opening in the browser (Normally PDF), we can right-click the link and select Save link as (different browsers may use slightly different wording, like Save target as)
+
+D. Creating users and shares
+
+- RedHat Linux provides the User Manager application that allows us to view, modify, add, and delete local users and groups in the graphical user interface.
+
+Note: To Manage the users we need root Privileges, so login to system with root user.
+
+To start the User Manager application:
+System-> Administration-> Users and Groups.
+->system-config-users
+
+- Adding a New User: 
+To add a new user, follow the steps given below.
+a) Click the Add User button.
+b) Enter the user name and full name in the appropriate fields
+- Type the user's password in the Password and Confirm Password fields. The password must be at least six characters long. (It is always better to use long and complex password for security reasons.

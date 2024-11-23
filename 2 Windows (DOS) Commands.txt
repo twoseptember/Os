@@ -1,0 +1,166 @@
+Practical No.2
+
+AIM: Windows (DOS) Commands
+
+How to open windows DOS prompt?
+- Right-click on the Start button in the lower-left corner of the screen and select the Command Prompt option from the Power User menu.
+
+Date, time, md, cd, rd, path.
+
+1. Date :
+To find the current date, MS-DOS provides the DATE commands.
+
+Syntax
+C:\Users\Tushar>date
+Current date is: 05-09-2016
+Enter new date (mm-dd-yy):
+
+2. Time: 
+To find the current time, MS-DOS provides the TIME commands.
+
+Syntax
+C:\Users\Tushar>time
+The current time is: 12:21:06.72
+Enter the new time:
+
+3. MD:
+ Allows you to create your own directories in MS-DOS.
+
+Syntax:
+MKDIR [drive:]path
+OR
+MD [drive:]path
+
+Example 
+C:\>mkdir "sir"
+Or
+C:\>md sir
+It will create a folder named “sir”
+
+4.cd:
+ CD (Change Directory) is a command used to switch directories in MS-DOS and the Windows command line.
+
+CD Goes to the highest level, the root of the drive.
+CD. Goes back one directory. to C:\Users> directory.
+
+Syntax:
+C:\Users\sandeep>cd ..
+C:\Users>
+
+C:\Users\sandeep>cd abc
+C:\Users\sandeep\abc>
+
+5. rd: 
+Removes an empty directory in MS-DOS. 
+
+Example 
+C:\>rmdir c:\test
+Or
+C:\>rd test1
+
+Remove the test directory, if empty.
+
+6.Path 
+Path is used to specify the location where MS-DOS looks when using a command. 
+
+Syntax 
+D:\>path
+PATH=C:\ProgramData…
+
+—-----------------------------------------------------------
+
+B) Chkdsk, copy, format, fidsk, cls, defrag, del, move.
+
+1. chkdsk:
+- Chkdsk is a utility that checks the computer's hard drive status for any cross-linked or any additional errors with the hard drive. 
+- Run this command in Administrative mode. Open it by right click on windows button and select Command Prompt(Admin)
+
+Syntax 
+C:\WINDOWS\system32>chkdsk c:
+
+The type of the file system is NTFS.
+Stage 1: Examining basic file system structure...
+Progress: 80703 of 201728 done; Stage: 40%; Total: 13%; ETA: 0:00:30 ........
+
+2. copy: 
+Allows you to copy one or more files to an alternate location.
+
+Syntax 
+C:\abc\>copy abc.txt D:\
+
+
+3. format: 
+Format is used to erase information of a computer diskette or fixed drive.
+
+Syntax:
+C:\>format d:
+This would erase the contents of your D:
+
+4. fdisk:
+ Fdisk is used to delete and create partitions on the hard drive in earlier versions of MS-DOS and Windows.
+
+Syntax:
+C:\>Fdisk
+Open the fdisk option screen that you can see in the fdisk simulation.
+
+5. cls: 
+Cis is a command that allows you to clear the complete contents of the screen and leave only a prompt.
+
+Syntax: C:\>cls
+
+6. defrag: 
+Microsoft Defrag was first introduced with MS-DOS 6.0 and is a software utility capable of organizing and optimizing the files on the hard drive to improve system performance.
+
+D:\>defrag c:
+Defrag the main hard drive and correct any fragmented files.
+
+7. del:
+ Del is a command used to delete files from the computer.
+
+Syntax:
+C:\>del test.txt
+
+8. Move
+Allows you to move files or directories from one folder to another, or from one drive to another
+
+Syntax:
+c:\windows\user> move abc.txt desktop
+
+—-----------------------------------------------------------
+
+C) Diskcomp, echo , Edit, find, rename
+
+1. Diskcomp: 
+Compares the contents of a floppy disk in the source drive to the contents of a floppy disk in the target drive.
+
+Example 
+C:\>diskcomp a: b: /1
+Compares the first side of A: with B:
+
+2. echo 
+echo is one of the most commonly and widely used built-in command that typically used in scripting language and batch files to display a line of text/string on standard output or a file.
+
+Example 
+C:\>echo "hi"
+hi
+
+3. Edit: 
+The MS-DOS editor is a command line text editor that allows you to view, create, or modify any file on your computer
+
+Example
+C:\>edit myfile.txt
+
+This would bring up a blank edit screen, as long as the file is saved upon exit this will create the file myfile.txt.
+
+4. find: 
+Allows you to search for text within a file. 
+D:\>find "Frame" TText.java
+—--------------TTEXT.JAVA
+
+5. rename: 
+Used to rename files and directories from the original name to a new name.
+
+Syntax
+C:\>rename D:\Test NewTest
+
+Rename the directory Test to NewTest.

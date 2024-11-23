@@ -1,0 +1,109 @@
+Practical No. 5
+
+AIM:Running C/C++/Python programs in Linux
+
+A. Compiling and executing the C program
+
+Method 1: Using CC Compiler
+
+In this method, we will be compiling and executing the C program code using CC Compiler.
+
+Step1: 
+Firstly, we need to open the text editor and terminal for writing code and executing it through the terminal.
+
+Step 2: 
+In the text editor we need to write any code using a C programming language.
+
+Example
+#include <stdio.h>
+int main() { printf("Welcome to the world of Linux");
+return 0;
+}
+
+Step 3: 
+Now, we need to save the file with the .c extension. So in this example, we have saved the file as welcome.c.
+
+Step 4: Open the terminal and install GCC by using following command:  
+
+ First type SU then enter login password 
+->  type gcc then hit enter it will ask Y or N enter Y.
+
+Now compile and run the C code in the terminal using the below commands.
+
+cd /Desktop    // go to file saved location of file
+cc welcome.c
+./a.out
+
+Method 2: Using GCC Compiler
+
+We can also compile and execute the script using the GCC compiler. Create new file as shown in previous example. Use following code. Save the file with name add.c
+
+Example Script:
+
+#include <stdio.h>
+int main()
+ {
+int a=10,b-20, c;
+c=a+b;
+printf("addition of=%d\n",c);
+return 0;
+}
+
+Step 1: 
+Navigate to the directory where the file is been saved. Use the below commands.
+ cd Desktop/
+
+Step 2:
+ Execute the below command in the terminal for compilation and execution.
+cc-o add add.c
+./add
+—----------------------------------------------------------
+
+B. Compile and Run C++ Code in Linux
+
+In this method, we will be compiling and executing the C++ program code using G++ Compiler.
+
+Step 1: 
+Write the C++ program code in a text file using a text editor simlilarly as previous and save the file with the .cpp extension. (my.cpp)
+
+Example Script:
+
+#include <iostream>
+using namespace std;
+int main() {
+cout << "Welcome to World of Linux";
+return 0;
+}
+
+Step 2: 
+Open terminal and use following command to install g++
+
+-> su
+-> enter login password 
+-> g++
+-> press Y
+-> again press Y
+
+After successful installation Navigate to the directory where the file is been saved.
+cd /Desktop/
+
+Step 3: 
+Execute the below command for compilation and execution.
+g++ my.cpp
+/a.out
+
+
+C. Compile and Run Python Code in Linux
+
+Step 1:
+Open the text editor and type following python code.
+
+print ("Welcome to Python, Linux rules!")
+Save the file with name First.py
+
+Step 2: 
+Open terminal and navigate to the directory where the file is saved.
+cd/Desktop/
+
+Now run the file using following command
+python3 First.py
